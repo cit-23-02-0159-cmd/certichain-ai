@@ -1,0 +1,1754 @@
+.result-page {
+
+  min-height: 100vh;
+
+  color: #1d263b;
+
+  background:
+
+    radial-gradient(circle at 8% 15%, rgba(98, 75, 224, 0.08), transparent 22%),
+
+    radial-gradient(circle at 92% 30%, rgba(41, 140, 220, 0.07), transparent 22%),
+
+    #f7f9fd;
+
+}
+
+
+
+/* Navigation */
+
+
+
+.result-navbar {
+
+  min-height: 82px;
+
+  padding: 14px 6%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 25px;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border-bottom: 1px solid #e5e8f0;
+
+  backdrop-filter: blur(16px);
+
+}
+
+
+
+.result-logo {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+}
+
+
+
+.result-logo-icon {
+
+  width: 44px;
+
+  height: 44px;
+
+  display: grid;
+
+  place-items: center;
+
+  color: white;
+
+  border-radius: 13px;
+
+  background: linear-gradient(135deg, #7452ea, #3781e6);
+
+  box-shadow: 0 10px 23px rgba(88, 68, 210, 0.25);
+
+  font-size: 21px;
+
+  font-weight: 800;
+
+}
+
+
+
+.result-logo h2 {
+
+  color: #1f283d;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 18px;
+
+  line-height: 1.1;
+
+}
+
+
+
+.result-logo span {
+
+  color: #8d93a2;
+
+  font-size: 10px;
+
+}
+
+
+
+.result-nav-actions {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+}
+
+
+
+.result-home-link {
+
+  padding: 10px 12px;
+
+  color: #687184;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+}
+
+
+
+.verify-another-button,
+
+.result-wallet-button {
+
+  min-height: 40px;
+
+  padding: 0 15px;
+
+  display: flex;
+
+  align-items: center;
+
+  border-radius: 10px;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+}
+
+
+
+.verify-another-button {
+
+  color: #5e43c9;
+
+  border: 1px solid #d9d4ef;
+
+  background: #fff;
+
+}
+
+
+
+.result-wallet-button {
+
+  color: white;
+
+  border: none;
+
+  background: linear-gradient(135deg, #7250e4, #4867df);
+
+}
+
+
+
+/* Main content */
+
+
+
+.result-main {
+
+  max-width: 1320px;
+
+  margin: auto;
+
+  padding: 55px 5% 90px;
+
+}
+
+
+
+.result-heading {
+
+  margin-bottom: 31px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+}
+
+
+
+.result-heading-icon {
+
+  width: 56px;
+
+  height: 56px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: white;
+
+  border-radius: 17px;
+
+  background: linear-gradient(135deg, #24a674, #39c28c);
+
+  box-shadow: 0 12px 25px rgba(40, 169, 118, 0.24);
+
+  font-size: 24px;
+
+  font-weight: 800;
+
+}
+
+
+
+.result-heading span,
+
+.result-card-heading span,
+
+.institution-card > span {
+
+  color: #7160bd;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.2px;
+
+}
+
+
+
+.result-heading h1 {
+
+  margin-top: 4px;
+
+  color: #202a40;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: clamp(27px, 4vw, 38px);
+
+  letter-spacing: -1px;
+
+}
+
+
+
+.result-heading p {
+
+  margin-top: 5px;
+
+  color: #858c9b;
+
+  font-size: 12px;
+
+}
+
+
+
+/* Authentic banner */
+
+
+
+.authentic-banner {
+
+  margin-bottom: 25px;
+
+  padding: 25px 29px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 19px;
+
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.6);
+
+  border-radius: 20px;
+
+  background:
+
+    radial-gradient(circle at 85% 30%, rgba(255, 255, 255, 0.15), transparent 25%),
+
+    linear-gradient(135deg, #16875d, #2bad7b);
+
+  box-shadow: 0 18px 40px rgba(25, 145, 99, 0.19);
+
+}
+
+
+
+.authentic-icon {
+
+  width: 57px;
+
+  height: 57px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: #16865c;
+
+  background: white;
+
+  border-radius: 50%;
+
+  font-size: 25px;
+
+  font-weight: 900;
+
+}
+
+
+
+.authentic-content {
+
+  flex: 1;
+
+}
+
+
+
+.authentic-content span {
+
+  color: #cff4e4;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.2px;
+
+}
+
+
+
+.authentic-content h2 {
+
+  margin-top: 5px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 24px;
+
+}
+
+
+
+.authentic-content p {
+
+  max-width: 700px;
+
+  margin-top: 5px;
+
+  color: #dcf6eb;
+
+  font-size: 11px;
+
+  line-height: 1.55;
+
+}
+
+
+
+.confidence-box {
+
+  min-width: 115px;
+
+  padding: 15px;
+
+  text-align: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+}
+
+
+
+.confidence-box span {
+
+  display: block;
+
+  color: #d6f5e8;
+
+  font-size: 9px;
+
+}
+
+
+
+.confidence-box strong {
+
+  display: block;
+
+  margin-top: 3px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 25px;
+
+}
+
+
+
+/* Layout */
+
+
+
+.result-layout {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.55fr) minmax(285px, 0.65fr);
+
+  align-items: start;
+
+  gap: 24px;
+
+}
+
+
+
+.result-left,
+
+.result-right {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+}
+
+
+
+.result-card,
+
+.risk-card,
+
+.status-card,
+
+.institution-card {
+
+  padding: 25px;
+
+  background: #fff;
+
+  border: 1px solid #e4e7ef;
+
+  border-radius: 19px;
+
+  box-shadow: 0 14px 38px rgba(38, 46, 79, 0.06);
+
+}
+
+
+
+.result-card-heading {
+
+  padding-bottom: 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  border-bottom: 1px solid #eceef3;
+
+}
+
+
+
+.result-card-heading h2 {
+
+  margin-top: 4px;
+
+  color: #30394e;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 17px;
+
+}
+
+
+
+.extracted-badge,
+
+.blockchain-verified-badge {
+
+  padding: 8px 11px;
+
+  border-radius: 100px;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+}
+
+
+
+.extracted-badge {
+
+  color: #6848d0;
+
+  background: #eeeaff;
+
+}
+
+
+
+.blockchain-verified-badge {
+
+  color: #18875c;
+
+  background: #e4f7ee;
+
+}
+
+
+
+/* Certificate details */
+
+
+
+.certificate-owner {
+
+  margin-top: 21px;
+
+  padding: 17px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  border: 1px solid #e7e4f5;
+
+  border-radius: 14px;
+
+  background: #faf9ff;
+
+}
+
+
+
+.owner-avatar {
+
+  width: 49px;
+
+  height: 49px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: white;
+
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #7453e6, #427ae4);
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+}
+
+
+
+.certificate-owner > div:nth-child(2) {
+
+  flex: 1;
+
+}
+
+
+
+.certificate-owner span {
+
+  color: #969cab;
+
+  font-size: 9px;
+
+}
+
+
+
+.certificate-owner h3 {
+
+  margin-top: 3px;
+
+  color: #343e53;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+
+}
+
+
+
+.certificate-owner p {
+
+  margin-top: 3px;
+
+  color: #898f9d;
+
+  font-size: 9px;
+
+}
+
+
+
+.matched-badge {
+
+  padding: 7px 10px;
+
+  color: #18855b;
+
+  border-radius: 100px;
+
+  background: #e3f7ed;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+}
+
+
+
+.details-grid {
+
+  margin-top: 17px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+
+}
+
+
+
+.detail-item {
+
+  min-height: 66px;
+
+  padding: 13px;
+
+  border: 1px solid #eceef3;
+
+  border-radius: 11px;
+
+  background: #fbfcfe;
+
+}
+
+
+
+.detail-item span,
+
+.blockchain-detail > span {
+
+  display: block;
+
+  color: #9399a8;
+
+  font-size: 9px;
+
+}
+
+
+
+.detail-item strong,
+
+.blockchain-detail > strong {
+
+  display: block;
+
+  margin-top: 6px;
+
+  color: #414a5e;
+
+  font-size: 11px;
+
+  line-height: 1.4;
+
+}
+
+
+
+.detail-item .active-status {
+
+  color: #1b925f;
+
+}
+
+
+
+/* Blockchain */
+
+
+
+.blockchain-details {
+
+  margin-top: 19px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+
+}
+
+
+
+.blockchain-detail {
+
+  padding: 13px;
+
+  border: 1px solid #e8eaf1;
+
+  border-radius: 11px;
+
+  background: #fafbfe;
+
+}
+
+
+
+.blockchain-detail.full-width {
+
+  grid-column: 1 / -1;
+
+}
+
+
+
+.hash-value {
+
+  margin-top: 7px;
+
+  padding: 10px;
+
+  overflow: hidden;
+
+  color: #66577c;
+
+  border-radius: 8px;
+
+  background: #f1effa;
+
+  font-family: monospace;
+
+  font-size: 10px;
+
+  overflow-wrap: anywhere;
+
+}
+
+
+
+.transaction-value {
+
+  margin-top: 7px;
+
+  padding: 9px 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+  border-radius: 8px;
+
+  background: #f1effa;
+
+}
+
+
+
+.transaction-value strong {
+
+  overflow: hidden;
+
+  color: #625474;
+
+  font-family: monospace;
+
+  font-size: 9px;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+}
+
+
+
+.transaction-value button {
+
+  flex-shrink: 0;
+
+  padding: 7px 9px;
+
+  color: #6546d1;
+
+  border: 1px solid #d6cef1;
+
+  border-radius: 7px;
+
+  background: white;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+}
+
+
+
+/* AI analysis */
+
+
+
+.analysis-list {
+
+  margin-top: 5px;
+
+}
+
+
+
+.analysis-item {
+
+  padding: 17px 2px;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 12px;
+
+  border-bottom: 1px solid #eceef3;
+
+}
+
+
+
+.analysis-item:last-child {
+
+  padding-bottom: 0;
+
+  border-bottom: none;
+
+}
+
+
+
+.analysis-check {
+
+  width: 28px;
+
+  height: 28px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: white;
+
+  border-radius: 50%;
+
+  background: #27a870;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+}
+
+
+
+.analysis-item > div:nth-child(2) {
+
+  flex: 1;
+
+}
+
+
+
+.analysis-item strong {
+
+  display: block;
+
+  color: #3e485c;
+
+  font-size: 11px;
+
+}
+
+
+
+.analysis-item p {
+
+  margin-top: 4px;
+
+  color: #8b92a1;
+
+  font-size: 9px;
+
+  line-height: 1.55;
+
+}
+
+
+
+.passed-label {
+
+  padding: 6px 9px;
+
+  color: #218860;
+
+  border-radius: 100px;
+
+  background: #e6f7ef;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+}
+
+
+
+/* Risk score */
+
+
+
+.risk-card {
+
+  text-align: center;
+
+}
+
+
+
+.risk-card-heading {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+}
+
+
+
+.risk-card-heading span {
+
+  color: #704edd;
+
+  font-size: 16px;
+
+}
+
+
+
+.risk-card-heading h3,
+
+.status-card h3 {
+
+  color: #354056;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+
+}
+
+
+
+.risk-circle {
+
+  width: 155px;
+
+  height: 155px;
+
+  margin: 25px auto 18px;
+
+  padding: 12px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: conic-gradient(#24a96f 0deg 14.4deg, #e8ecf1 14.4deg 360deg);
+
+  box-shadow: 0 10px 30px rgba(39, 160, 109, 0.12);
+
+}
+
+
+
+.risk-circle-inner {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: grid;
+
+  place-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+}
+
+
+
+.risk-circle-inner strong {
+
+  color: #219768;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 34px;
+
+}
+
+
+
+.risk-circle-inner span {
+
+  margin-top: 2px;
+
+  color: #52a886;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+}
+
+
+
+.risk-card > p {
+
+  color: #858d9e;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+
+}
+
+
+
+.risk-scale {
+
+  margin-top: 20px;
+
+}
+
+
+
+.scale-labels {
+
+  margin-bottom: 7px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #9298a5;
+
+  font-size: 8px;
+
+}
+
+
+
+.scale-bar {
+
+  height: 7px;
+
+  position: relative;
+
+  border-radius: 100px;
+
+  background: linear-gradient(90deg, #2db076, #f0c34e, #e55e62);
+
+}
+
+
+
+.risk-position {
+
+  width: 13px;
+
+  height: 13px;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 4%;
+
+  border: 2px solid white;
+
+  border-radius: 50%;
+
+  background: #258d64;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+/* Summary */
+
+
+
+.status-card h3 {
+
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #eceef3;
+
+}
+
+
+
+.status-list {
+
+  margin-top: 5px;
+
+}
+
+
+
+.status-list > div {
+
+  padding: 13px 0;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  border-bottom: 1px solid #eef0f4;
+
+}
+
+
+
+.status-list > div:last-child {
+
+  border-bottom: none;
+
+}
+
+
+
+.status-icon {
+
+  width: 25px;
+
+  height: 25px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+}
+
+
+
+.status-icon.success {
+
+  color: #1d8d60;
+
+  background: #e3f7ed;
+
+}
+
+
+
+.status-list p {
+
+  flex: 1;
+
+  color: #687184;
+
+  font-size: 10px;
+
+}
+
+
+
+.status-list strong {
+
+  color: #21895f;
+
+  font-size: 9px;
+
+}
+
+
+
+/* Institution */
+
+
+
+.institution-details {
+
+  margin-top: 15px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+}
+
+
+
+.institution-logo {
+
+  width: 44px;
+
+  height: 44px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: white;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #2256a6, #2e8bd2);
+
+  font-family: "Manrope", sans-serif;
+
+  font-weight: 800;
+
+}
+
+
+
+.institution-details h3 {
+
+  color: #3a4459;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+
+}
+
+
+
+.institution-details p {
+
+  margin-top: 3px;
+
+  color: #9298a6;
+
+  font-size: 8px;
+
+}
+
+
+
+.institution-verified {
+
+  margin-top: 14px;
+
+  padding: 9px;
+
+  text-align: center;
+
+  color: #1d885e;
+
+  border-radius: 8px;
+
+  background: #e5f7ef;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+}
+
+
+
+.download-report-button {
+
+  min-height: 47px;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #7250e3, #426fdf);
+
+  box-shadow: 0 10px 25px rgba(85, 66, 207, 0.22);
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+}
+
+
+
+.new-verification-link {
+
+  padding: 13px;
+
+  text-align: center;
+
+  color: #5e46c6;
+
+  border: 1px solid #dcd7ef;
+
+  border-radius: 11px;
+
+  background: white;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+}
+
+
+
+.result-disclaimer {
+
+  margin-top: 22px;
+
+  padding: 15px;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 11px;
+
+  color: #6f7d96;
+
+  border: 1px solid #dae3f1;
+
+  border-radius: 12px;
+
+  background: #eef3fa;
+
+}
+
+
+
+.result-disclaimer span {
+
+  width: 21px;
+
+  height: 21px;
+
+  display: grid;
+
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: #4c71aa;
+
+  border: 1px solid #9cb3d4;
+
+  border-radius: 50%;
+
+  font-family: serif;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+}
+
+
+
+.result-disclaimer p {
+
+  font-size: 9px;
+
+  line-height: 1.6;
+
+}
+
+
+
+/* Responsive */
+
+
+
+@media (max-width: 950px) {
+
+  .result-layout {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+
+  .result-right {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+
+
+  .download-report-button,
+
+  .new-verification-link {
+
+    min-height: 50px;
+
+  }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+  .result-navbar {
+
+    padding: 12px 4%;
+
+  }
+
+
+
+  .result-logo span,
+
+  .result-home-link,
+
+  .result-wallet-button {
+
+    display: none;
+
+  }
+
+
+
+  .verify-another-button {
+
+    padding: 0 10px;
+
+    font-size: 9px;
+
+  }
+
+
+
+  .result-main {
+
+    padding: 40px 4% 70px;
+
+  }
+
+
+
+  .result-heading {
+
+    align-items: flex-start;
+
+  }
+
+
+
+  .authentic-banner {
+
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+  }
+
+
+
+  .authentic-content {
+
+    width: calc(100% - 80px);
+
+  }
+
+
+
+  .confidence-box {
+
+    width: 100%;
+
+  }
+
+
+
+  .details-grid,
+
+  .blockchain-details,
+
+  .result-right {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+
+  .blockchain-detail.full-width {
+
+    grid-column: auto;
+
+  }
+
+
+
+  .result-card,
+
+  .risk-card,
+
+  .status-card,
+
+  .institution-card {
+
+    padding: 19px;
+
+  }
+
+
+
+  .result-card-heading {
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+  }
+
+
+
+  .certificate-owner {
+
+    flex-wrap: wrap;
+
+  }
+
+
+
+  .matched-badge {
+
+    margin-left: 63px;
+
+  }
+
+
+
+  .transaction-value {
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+  }
+
+
+
+  .analysis-item {
+
+    flex-wrap: wrap;
+
+  }
+
+
+
+  .passed-label {
+
+    margin-left: 40px;
+
+  }
+
+}
+
+
+/* =========================================================
+   REVOCATION / FAILED RESULT VISUAL FIX
+   Works with the existing VerificationResult.jsx markup.
+   ========================================================= */
+
+/* If the page is showing the red FAIL banner, make the heading icon red too. */
+.result-main:has(.authentic-banner[style*="linear-gradient"]) .result-heading-icon {
+  background: linear-gradient(135deg, #dc3545, #f06b73);
+  box-shadow: 0 12px 25px rgba(220, 53, 69, 0.22);
+}
+
+/* Failed certificate badge */
+.result-main:has(.authentic-banner[style*="linear-gradient"]) .matched-badge {
+  color: #c93644;
+  background: #fde7e9;
+}
+
+/* Current Status is the last item in the certificate details grid */
+.result-main:has(.authentic-banner[style*="linear-gradient"])
+.details-grid .detail-item:last-child strong {
+  color: #c93644;
+}
+
+/* Revocation status row in Verification Details */
+.result-main:has(.authentic-banner[style*="linear-gradient"])
+.analysis-list .analysis-item:last-child .analysis-check {
+  background: #dc4b57;
+}
+
+.result-main:has(.authentic-banner[style*="linear-gradient"])
+.analysis-list .analysis-item:last-child .passed-label {
+  color: #c93644;
+  background: #fde7e9;
+}
+
+/* Revocation status row in Verification Summary */
+.result-main:has(.authentic-banner[style*="linear-gradient"])
+.status-list > div:last-child .status-icon {
+  color: #c93644;
+  background: #fde7e9;
+}
+
+.result-main:has(.authentic-banner[style*="linear-gradient"])
+.status-list > div:last-child strong {
+  color: #c93644;
+}
+
+/* Also support the conditional classes used by newer JSX versions. */
+.result-heading-icon.failed {
+  background: linear-gradient(135deg, #dc3545, #f06b73);
+  box-shadow: 0 12px 25px rgba(220, 53, 69, 0.22);
+}
+
+.matched-badge.failed {
+  color: #c93644;
+  background: #fde7e9;
+}
+
+.detail-item .revoked-status,
+.detail-item .mismatch-status {
+  color: #c93644;
+}
+
+.analysis-check.failed {
+  background: #dc4b57;
+}
+
+.passed-label.failed,
+.status-icon.failed {
+  color: #c93644;
+  background: #fde7e9;
+}
+
+.status-list strong.failed-status {
+  color: #c93644;
+}
+
